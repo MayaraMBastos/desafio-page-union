@@ -1,0 +1,23 @@
+.cabecalho {
+  height: 11.4rem;
+  position: fixed;
+  top: 0px;
+  left: 0px;
+  background: rgb(18, 17, 25);
+  transition: 0.35s ease-in-out;
+  width: 100%;
+  height: auto;
+  z-index: 50;
+}
+
+.nav {
+  height: 6.9rem;
+  display: flex;
+  flex-flow: wrap;
+  -webkit-box-pack: justify;
+  justify-content: space-between;
+  -webkit-box-align: center;
+  align-items: center;
+  width: 100%;
+  margin: 0px auto;
+}

@@ -1,16 +1,14 @@
-import styles from "../../app/globals.css";
+import globalStyles from "../../app/globals.css";
 import Image from "next/image";
 import Navbar from "./Navbar";
 import LinkButton from "./LinkButton";
+import styles from "./Header.module.css";
 
 function Header() {
   return (
-    <header className="fixed top-0 left-0 bg-[rgb(18,17,25)] transition-all duration-[350ms] ease-in-out w-full h-auto z-[50]">
-      <div
-        className="max-w-[125.6rem] w-full h-auto mx-auto box-border"
-        style={{ WebkitFontSmoothing: "antialiased" }}
-      >
-        <nav className="flex flex-wrap justify-between items-center w-full h-auto mx-auto h-[6.9rem]">
+    <header className={`${styles.cabecalho}`}>
+      <div className="px-[1.6rem] py-[2.2rem] max-w-[125.6rem] w-full h-auto mx-auto">
+        <nav className={`${styles.nav}`}>
           <div className="flex justify-start">
             <a href="#">
               <Image

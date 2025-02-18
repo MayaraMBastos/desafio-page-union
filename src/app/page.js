@@ -5,7 +5,7 @@ import Container from "@/components/layout/Container";
 export default function Home() {
   return (
     <div>
-      <Header className="" />
+      <Header />
       <Container />
       <Footer />
     </div>

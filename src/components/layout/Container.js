@@ -1,9 +1,5 @@
 function Container() {
-  return (
-    <div>
-      <p>container</p>
-    </div>
-  );
+  return <main></main>;
 }
 
 export default Container;
