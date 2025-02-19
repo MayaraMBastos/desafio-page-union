@@ -4,15 +4,15 @@ import stylesContainer from "../Container.module.css";
 function SectionBeneficios() {
   return (
     <section className={`${stylesContainer.section}`}>
-      <div className="sc-eqUAAy dzXXvd">
+      <div className={`${styles.div_linhas_title}`}>
         <div
           aria-label="Linha a esquerda do titulo"
-          className="sc-dcJsrY iNzVsI"
+          className={`left-0 ${styles.div_linha}`}
         ></div>
         <h2 className="sc-fqkvVR ldfcuN">Benefícios</h2>
         <div
           aria-label="Linha a direita do titulo"
-          className="sc-iGgWBj jDNXdV"
+          className={`right-0 ${styles.div_linha}`}
         ></div>
       </div>
       <p className="sc-eZkCL elEVVm">
