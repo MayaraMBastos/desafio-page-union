@@ -3,7 +3,9 @@ import stylesContainer from "../Container.module.css";
 
 function SectionBeneficios() {
   return (
-    <section className={`${stylesContainer.section}`}>
+    <section
+      className={`${stylesContainer.section} ${stylesContainer.section_text}`}
+    >
       <div className={`${styles.div_linhas_title}`}>
         <div
           aria-label="Linha a esquerda do titulo"
@@ -15,14 +17,14 @@ function SectionBeneficios() {
           className={`right-0 ${styles.div_linha}`}
         ></div>
       </div>
-      <p className="sc-eZkCL elEVVm">
+      <p>
         Conheça os benefícios incríveis que o Union proporciona para seus
         membros!
       </p>
-      <div className="sc-ggpjZQ hxAgat">
-        <div className="sc-fUnMCh iwCllZ">
-          <div className="opacity-0 translate-y-5 transform">
-            <div className="sc-fHjqPf NtIaV">
+      <div className="mt-[5rem] max-w-[114rem] pl-[1.1rem]">
+        <div className="flex flex-col gap-[10rem]">
+          <div className={`text-left ${styles.div_cards}`}>
+            <div className="text-left">
               <img
                 src="https://media.graphassets.com/qssZQEUSEaAQoM6oznCw"
                 alt="Ícone de um foguete"
@@ -38,13 +40,7 @@ function SectionBeneficios() {
               </p>
             </div>
           </div>
-          <div className="opacity-0 translate-y-5 transform">
-            <div className="sc-fHjqPf NtIaV">
-              <img
-                src="https://media.graphassets.com/tsqge8g9TpyED5o5iVr6"
-                alt="Ícone de duas ferramentas"
-              />
-            </div>
+          <div className={`text-right ${styles.div_cards}`}>
             <div className="sc-hmdomO bxFhtl">
               <h3>Aprendizado de novas tecnologias e ferramentas</h3>
 
@@ -54,9 +50,15 @@ function SectionBeneficios() {
                 conhecimentos.
               </p>
             </div>
+            <div className="text-right">
+              <img
+                src="https://media.graphassets.com/tsqge8g9TpyED5o5iVr6"
+                alt="Ícone de duas ferramentas"
+              />
+            </div>
           </div>
-          <div className="opacity-0 translate-y-5 transform">
-            <div className="sc-fHjqPf NtIaV">
+          <div className={`text-left ${styles.div_cards}`}>
+            <div className="">
               <img
                 src="https://media.graphassets.com/XH5lk8IJQ1Cz1M2AE1Lu"
                 alt="Ícone de um controle de video game"
@@ -72,8 +74,8 @@ function SectionBeneficios() {
               </p>
             </div>
           </div>
-          <div className="opacity-0 translate-y-5 transform">
-            <div className="sc-fHjqPf NtIaV">
+          <div className={`text-right ${styles.div_cards}`}>
+            <div className="">
               <img
                 src="https://media.graphassets.com/eBMuKBvTLulsEbZySGwt"
                 alt="Ícone de um estrela"
@@ -89,8 +91,8 @@ function SectionBeneficios() {
               </p>
             </div>
           </div>
-          <div className="opacity-0 translate-y-5 transform">
-            <div className="sc-fHjqPf NtIaV">
+          <div className={`text-left ${styles.div_cards}`}>
+            <div className="">
               <img
                 src="https://media.graphassets.com/2S5Pdk5oShOJUlIz8p7X"
                 alt="Ícone de um planeta"
@@ -105,8 +107,8 @@ function SectionBeneficios() {
               </p>
             </div>
           </div>
-          <div className="opacity-0 translate-y-5 transform">
-            <div className="sc-fHjqPf NtIaV">
+          <div className={`text-right ${styles.div_cards}`}>
+            <div className="">
               <img
                 src="https://media.graphassets.com/WR1yF2qGRmm8jWLCyw0D"
                 alt="Ícone de um sinal de positivo"
@@ -120,8 +122,8 @@ function SectionBeneficios() {
               </p>
             </div>
           </div>
-          <div className="opacity-0 translate-y-5 transform">
-            <div className="sc-fHjqPf NtIaV">
+          <div className={`text-left ${styles.div_cards}`}>
+            <div className="">
               <img
                 src="https://media.graphassets.com/KHCFnl40RyKQqOx6Bjuz"
                 alt="Ícone de uma lâmpada acessa"
@@ -136,8 +138,8 @@ function SectionBeneficios() {
               </p>
             </div>
           </div>
-          <div className="opacity-0 translate-y-5 transform">
-            <div className="sc-fHjqPf NtIaV">
+          <div className={`text-right ${styles.div_cards}`}>
+            <div className="">
               <img
                 src="https://media.graphassets.com/sanArFzbQUipTnjRVl78"
                 alt="Ícone de um avatar representando uma pessoa"

@@ -34,3 +34,14 @@
   border-radius: 20px;
   margin: 0 3rem 0 3rem;
 }
+
+.div_cards {
+  display: inline-flex;
+  align-items: flex-start;
+  -webkit-box-pack: start;
+  justify-content: flex-start;
+  gap: 5.8rem;
+  flex-direction: row;
+  -webkit-box-align: center;
+  width: 100%;
+}
