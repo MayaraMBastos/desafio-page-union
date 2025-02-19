@@ -4,10 +4,10 @@ import stylesContainer from "../Container.module.css";
 function SectionSobre() {
   return (
     <section className={`${stylesContainer.section}`}>
-      <header>
+      <header className={`${stylesContainer.section_header}`}>
         <h2>Quem somos?</h2>
       </header>
-      <div className="sc-klVQfs bcrHgQ">
+      <div className={`${stylesContainer.section_text}`}>
         <p>
           O Union é uma oportunidade única para desenvolvedores juniors, nossa
           missão é proporcionar a você um ambiente prático e imersivo,

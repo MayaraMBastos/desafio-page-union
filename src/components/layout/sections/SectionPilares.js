@@ -4,22 +4,22 @@ import stylesContainer from "../Container.module.css";
 function SectionPilares() {
   return (
     <section className={`${stylesContainer.section}`}>
-      <header>
+      <header className={`${stylesContainer.section_header}`}>
         <h2>Pilares</h2>
       </header>
-      <div className="sc-fxwrCY bRxpkB">
+      <div className={`${stylesContainer.section_text}`}>
         <p>
           Os pilares que sustentam o formato inovador de aprendizagem do Union é
           a junção de incríveis metodologias!
         </p>
       </div>
-      <div className="sc-jnOGJG gqQeKr">
-        <div className="sc-gFqAkR bxrNki">
-          <div className="opacity-0 translate-y-5 transform">
-            <header className="sc-dAbbOL dGtlsv">
+      <div className="mt-[2rem] mb-[2rem]">
+        <div className={`${styles.div_pilares}`}>
+          <div className={`${styles.div_metodologias}`}>
+            <header>
               <h3>Ativa</h3>
             </header>
-            <div className="sc-feUZmu khRXw">
+            <div className={`${styles.div_metodologias_text}`}>
               <p>
                 Metodologia ativa é uma abordagem educacional que coloca o aluno
                 como protagonista, onde ele é o responsável por ir atrás dos
@@ -29,11 +29,11 @@ function SectionPilares() {
               </p>
             </div>
           </div>
-          <div className="opacity-0 translate-y-5 transform">
-            <header className="sc-dAbbOL dGtlsv">
+          <div className={`${styles.div_metodologias}`}>
+            <header>
               <h3>Andragogia</h3>
             </header>
-            <div className="sc-feUZmu khRXw">
+            <div className={`${styles.div_metodologias_text}`}>
               <p>
                 É uma metodologia de ensino para adultos, que tem mais liberdade
                 e colaboração, permitindo que o aluno decida quando, como e o
@@ -43,11 +43,11 @@ function SectionPilares() {
               </p>
             </div>
           </div>
-          <div className="opacity-0 translate-y-5 transform">
-            <header className="sc-dAbbOL dGtlsv">
+          <div className={`${styles.div_metodologias}`}>
+            <header>
               <h3>Ágil</h3>
             </header>
-            <div className="sc-feUZmu khRXw">
+            <div className={`${styles.div_metodologias_text}`}>
               <p>
                 A metodologia ágil é uma metodologia que estimula a colaboração
                 entre o time, permitindo que tenha uma visão mais transparente,

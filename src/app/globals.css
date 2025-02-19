@@ -16,19 +16,15 @@
 }
 
 * {
+  margin: 0px;
+  padding: 0px;
   box-sizing: border-box;
-  margin: 0;
-  padding: 0;
   -webkit-font-smoothing: antialiased;
 }
 
 body {
   background-color: var(--background);
   font-family: Arial, Helvetica, sans-serif;
-}
-
-header {
-  color: var(--header);
 }
 
 ul a {
