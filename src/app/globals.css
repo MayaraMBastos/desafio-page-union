@@ -9,15 +9,21 @@
 
 @media (prefers-color-scheme: dark) {
   :root {
-    --background: #0a0a0a;
+    --background: rgb(31, 29, 43);
     --foreground: #ededed;
     --header: rgb(18, 17, 25);
   }
 }
 
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  -webkit-font-smoothing: antialiased;
+}
+
 body {
-  color: var(--foreground);
-  background: var(--background);
+  background-color: var(--background);
   font-family: Arial, Helvetica, sans-serif;
 }
 
@@ -33,4 +39,12 @@ ul a {
   line-height: 2.2rem;
   color: rgb(226, 226, 226);
   text-rendering: optimizelegibility;
+}
+
+p {
+  font-size: 2.4rem;
+  max-width: 102.7rem;
+  text-align: left;
+  color: rgb(226, 226, 226);
+  line-height: 150%;
 }

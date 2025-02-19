@@ -1,6 +1,9 @@
+import styles from "./SectionPilares.module.css";
+import stylesContainer from "../Container.module.css";
+
 function SectionPilares() {
   return (
-    <section id="pilares" className="">
+    <section className={`${stylesContainer.section}`}>
       <header className="sc-dSCufp iqdMvl">
         <h2>Pilares</h2>
       </header>

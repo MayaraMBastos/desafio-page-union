@@ -7,7 +7,7 @@ import SectionEtapas from "./sections/SectionEtapas";
 
 function Container() {
   return (
-    <main className="flex flex-col">
+    <main className="flex flex-col mt-[11.3rem]">
       <SectionTop />
       <div className={`${styles.display_sections}`}>
         <SectionSobre />

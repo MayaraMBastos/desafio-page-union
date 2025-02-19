@@ -1,8 +1,9 @@
 import styles from "./SectionSobre.module.css";
+import stylesContainer from "../Container.module.css";
 
 function SectionSobre() {
   return (
-    <section id="sobre" className="">
+    <section className={`${stylesContainer.section}`}>
       <header className="sc-iHbSHJ kJOaPE">
         <h2>Quem somos?</h2>
       </header>

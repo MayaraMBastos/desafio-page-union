@@ -1,3 +1,4 @@
+import LinkButton from "../LinkButton";
 import styles from "./SectionTop.module.css";
 
 function SectionTop() {
@@ -17,11 +18,12 @@ function SectionTop() {
               estar em uma empresa. Participe dessa experiência única e
               impulsione sua carreira como desenvolvedor!
             </p>
-            <a href="#formulario" className="opacity-100 transform-none">
-              <button className="">
-                <span>Quero participar</span>
-              </button>
-            </a>
+
+            <LinkButton
+              text={"Quero participar"}
+              href="#formulario"
+              className="opacity-100 transform-none"
+            />
           </div>
           <img
             className="translate-y-[0.289163px] translate-z-0"

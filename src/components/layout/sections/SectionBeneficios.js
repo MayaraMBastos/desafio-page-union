@@ -1,6 +1,9 @@
+import styles from "./SectionBeneficios.module.css";
+import stylesContainer from "../Container.module.css";
+
 function SectionBeneficios() {
   return (
-    <section id="beneficios" className="">
+    <section className={`${stylesContainer.section}`}>
       <div className="sc-eqUAAy dzXXvd">
         <div
           aria-label="Linha a esquerda do titulo"

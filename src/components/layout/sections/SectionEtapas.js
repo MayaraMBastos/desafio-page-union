@@ -1,6 +1,9 @@
+import styles from "./SectionEtapas.module.css";
+import stylesContainer from "../Container.module.css";
+
 function SectionEtapas() {
   return (
-    <section id="etapas" className="">
+    <section className={`${stylesContainer.section}`}>
       <div className="sc-eqUAAy dzXXvd">
         <div
           aria-label="Linha a esquerda do titulo"

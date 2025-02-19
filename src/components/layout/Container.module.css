@@ -8,5 +8,8 @@
   width: 100%;
   max-width: 125.6rem;
   margin: 0px auto;
-  padding: 0px 1.6rem;
+}
+
+.section {
+  background-color: rgb(31, 29, 43);
 }
