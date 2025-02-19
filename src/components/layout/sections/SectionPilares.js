@@ -4,7 +4,7 @@ import stylesContainer from "../Container.module.css";
 function SectionPilares() {
   return (
     <section className={`${stylesContainer.section}`}>
-      <header className="sc-dSCufp iqdMvl">
+      <header>
         <h2>Pilares</h2>
       </header>
       <div className="sc-fxwrCY bRxpkB">
