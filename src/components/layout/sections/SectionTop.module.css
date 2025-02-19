@@ -1,0 +1,32 @@
+.bg_section_top {
+  background-image: url("/assets/image/hero-desktop-v2.jpg");
+  background-size: cover;
+  background-position: center;
+
+  display: flex;
+  flex-direction: column;
+  background-size: cover;
+  padding: 5.6rem 1.6rem 1.2rem;
+  width: 100%;
+  height: max-content;
+}
+
+.content_section {
+  opacity: 1;
+  display: grid;
+  grid-template-columns: 3fr 2fr;
+  -webkit-box-pack: center;
+  justify-content: center;
+  -webkit-box-align: center;
+  align-items: center;
+  width: 100%;
+  max-width: 125.6rem;
+  margin: 0px auto;
+}
+
+.content_text {
+  padding-top: 19.9rem;
+  padding-bottom: 3.2rem;
+  display: flex;
+  flex-direction: column;
+}

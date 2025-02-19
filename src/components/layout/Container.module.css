@@ -1,0 +1,12 @@
+.display_sections {
+  display: flex;
+  flex-direction: column;
+  -webkit-box-pack: center;
+  justify-content: center;
+  -webkit-box-align: center;
+  align-items: center;
+  width: 100%;
+  max-width: 125.6rem;
+  margin: 0px auto;
+  padding: 0px 1.6rem;
+}
