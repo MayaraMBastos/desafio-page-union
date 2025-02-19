@@ -1,9 +1,9 @@
-import styles from "../../app/globals.css";
+import styles from "./Navbar.module.css";
 
 function Navbar() {
   return (
-    <div className="flex justify-center items-center h-0 p-0">
-      <ul className="flex flex-row justify-center items-center gap-[1.6rem] p-0">
+    <div className={styles.navbar}>
+      <ul>
         <a href="#">
           <li>Sobre</li>
         </a>

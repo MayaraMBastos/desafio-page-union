@@ -10,7 +10,7 @@ function LinkButton({ text, href }) {
         href={href}
         className={`flex items-center justify-center no-underline cursor-pointer ${styles.button}`}
       >
-        {text}
+        <span>{text}</span>
       </button>
     </div>
   );

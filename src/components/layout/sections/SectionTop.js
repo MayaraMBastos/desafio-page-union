@@ -5,9 +5,11 @@ function SectionTop() {
   return (
     <section>
       <div className={`${styles.bg_section_top}`}>
-        <div className={`${styles.content_section}`}>
+        <div className={`opacity-100 ${styles.content_section}`}>
           <div className={`${styles.content_text}`}>
-            <div className="opacity-100 transform-none">
+            <div
+              className={`opacity-100 transform-none max-w-[55rem] ${styles.content_title}`}
+            >
               <h1>
                 Ganhe <strong>experiência </strong>como desenvolvedor júnior
               </h1>
@@ -19,17 +21,13 @@ function SectionTop() {
               impulsione sua carreira como desenvolvedor!
             </p>
 
-            <LinkButton
-              text={"Quero participar"}
-              href="#formulario"
-              className="opacity-100 transform-none"
-            />
+            <LinkButton text={"Quero participar"} href={"#formulario"} />
           </div>
           <img
-            className="translate-y-[0.289163px] translate-z-0"
             src="https://media.graphassets.com/zRjyxnD5RyGdG8xVpll8"
             alt="Um octógono com três pontos, representando a união dos desenvolvedores"
-          ></img>
+            className="translate-y-[0.289163px] translate-z-0"
+          />
         </div>
       </div>
     </section>
