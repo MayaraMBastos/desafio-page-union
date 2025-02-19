@@ -23,14 +23,14 @@ function SectionBeneficios() {
       </p>
       <div className="mt-[5rem] max-w-[114rem] pl-[1.1rem]">
         <div className="flex flex-col gap-[10rem]">
-          <div className={`text-left ${styles.div_cards}`}>
-            <div className="text-left">
+          <div className={`${styles.div_cards}`}>
+            <div>
               <img
                 src="https://media.graphassets.com/qssZQEUSEaAQoM6oznCw"
                 alt="Ícone de um foguete"
               />
             </div>
-            <div className="sc-hmdomO bxFhtl">
+            <div className={`text-left ${styles.div_card_text}`}>
               <h3>Preparação para o mercado</h3>
 
               <p>
@@ -40,31 +40,31 @@ function SectionBeneficios() {
               </p>
             </div>
           </div>
-          <div className={`text-right ${styles.div_cards}`}>
-            <div className="sc-hmdomO bxFhtl">
-              <h3>Aprendizado de novas tecnologias e ferramentas</h3>
-
-              <p>
-                Os membros são expostos a uma variedade de tecnologias e
-                ferramentas relevantes, expandindo suas habilidades e
-                conhecimentos.
-              </p>
-            </div>
-            <div className="text-right">
+          <div className={`flex-row-reverse ${styles.div_cards}`}>
+            <div className="">
               <img
                 src="https://media.graphassets.com/tsqge8g9TpyED5o5iVr6"
                 alt="Ícone de duas ferramentas"
               />
             </div>
+            <div className={`text-right ${styles.div_card_text}`}>
+              <h3>Aprendizado de novas tecnologias e ferramentas</h3>
+
+              <p className="text-right">
+                Os membros são expostos a uma variedade de tecnologias e
+                ferramentas relevantes, expandindo suas habilidades e
+                conhecimentos.
+              </p>
+            </div>
           </div>
-          <div className={`text-left ${styles.div_cards}`}>
-            <div className="">
+          <div className={`${styles.div_cards}`}>
+            <div>
               <img
                 src="https://media.graphassets.com/XH5lk8IJQ1Cz1M2AE1Lu"
                 alt="Ícone de um controle de video game"
               />
             </div>
-            <div className="sc-hmdomO bxFhtl">
+            <div className={`text-left ${styles.div_card_text}`}>
               <h3>Desenvolvimento de hard skills</h3>
 
               <p>
@@ -74,31 +74,31 @@ function SectionBeneficios() {
               </p>
             </div>
           </div>
-          <div className={`text-right ${styles.div_cards}`}>
-            <div className="">
+          <div className={`flex-row-reverse ${styles.div_cards}`}>
+            <div>
               <img
                 src="https://media.graphassets.com/eBMuKBvTLulsEbZySGwt"
                 alt="Ícone de um estrela"
               />
             </div>
-            <div className="sc-hmdomO bxFhtl">
+            <div className={`text-right ${styles.div_card_text}`}>
               <h3>Desenvolvimento de soft skills</h3>
 
-              <p>
+              <p className="text-right">
                 Além das competências técnicas, os membros aprimoram habilidades
                 interpessoais cruciais, como comunicação eficaz, resolução de
                 conflitos e trabalho em equipe.
               </p>
             </div>
           </div>
-          <div className={`text-left ${styles.div_cards}`}>
-            <div className="">
+          <div className={`${styles.div_cards}`}>
+            <div>
               <img
                 src="https://media.graphassets.com/2S5Pdk5oShOJUlIz8p7X"
                 alt="Ícone de um planeta"
               />
             </div>
-            <div className="sc-hmdomO bxFhtl">
+            <div className={`text-left ${styles.div_card_text}`}>
               <h3>Ambiente imersivo</h3>
               <p>
                 O Union oferece uma oportunidade única de aplicar conhecimentos
@@ -107,29 +107,29 @@ function SectionBeneficios() {
               </p>
             </div>
           </div>
-          <div className={`text-right ${styles.div_cards}`}>
-            <div className="">
+          <div className={`flex-row-reverse ${styles.div_cards}`}>
+            <div>
               <img
                 src="https://media.graphassets.com/WR1yF2qGRmm8jWLCyw0D"
                 alt="Ícone de um sinal de positivo"
               />
             </div>
-            <div className="sc-hmdomO bxFhtl">
+            <div className={`text-right ${styles.div_card_text}`}>
               <h3>Networking </h3>
-              <p>
+              <p className="text-right">
                 A participação no Union expande sua rede de contatos, abrindo
                 portas para colaborações futuras e oportunidades profissionais.
               </p>
             </div>
           </div>
-          <div className={`text-left ${styles.div_cards}`}>
-            <div className="">
+          <div className={`${styles.div_cards}`}>
+            <div>
               <img
                 src="https://media.graphassets.com/KHCFnl40RyKQqOx6Bjuz"
                 alt="Ícone de uma lâmpada acessa"
               />
             </div>
-            <div className="sc-hmdomO bxFhtl">
+            <div className={`text-left ${styles.div_card_text}`}>
               <h3>Domínio de metodologias ágeis</h3>
               <p>
                 Através da vivência prática, os membros aprendem a aplicar
@@ -138,16 +138,16 @@ function SectionBeneficios() {
               </p>
             </div>
           </div>
-          <div className={`text-right ${styles.div_cards}`}>
-            <div className="">
+          <div className={`flex-row-reverse ${styles.div_cards}`}>
+            <div>
               <img
                 src="https://media.graphassets.com/sanArFzbQUipTnjRVl78"
                 alt="Ícone de um avatar representando uma pessoa"
               />
             </div>
-            <div className="sc-hmdomO bxFhtl">
+            <div className={`text-right ${styles.div_card_text}`}>
               <h3>Mentória</h3>
-              <p>
+              <p className="text-right">
                 Os mentores experientes oferecem orientação valiosa,
                 proporcionando uma trajetória de aprendizado mais suave e
                 eficiente.

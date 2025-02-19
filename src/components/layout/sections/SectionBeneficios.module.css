@@ -41,7 +41,38 @@
   -webkit-box-pack: start;
   justify-content: flex-start;
   gap: 5.8rem;
-  flex-direction: row;
   -webkit-box-align: center;
   width: 100%;
+}
+
+.div_cards img {
+  width: 10rem;
+  max-width: 10rem;
+  height: 10rem;
+  max-height: 10rem;
+}
+
+.div_card_text {
+  gap: 1rem;
+  -webkit-box-pack: initial;
+  justify-content: initial;
+  -webkit-box-align: initial;
+  align-items: initial;
+  display: flex;
+  flex-direction: column;
+}
+
+.div_card_text h3 {
+  font-size: 2.2rem;
+  line-height: 4.4rem;
+  max-width: 55rem;
+  margin: 0px;
+  font-weight: 700;
+  color: rgb(255, 255, 255);
+}
+
+.div_card_text p {
+  max-width: 55rem;
+  line-height: 2rem;
+  margin: 0px;
 }
