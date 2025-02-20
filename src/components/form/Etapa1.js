@@ -1,12 +1,14 @@
+import styles from "./Formulario.module.css";
+
 function Etapa1() {
   return (
-    <div className="sc-jaXxmE jIWlBm">
-      <div className="sc-ibQAlb gDMmdu">
-        <div className="sc-jGKxIK hPtMng">
+    <div className={`${styles.div_etapa_1}`}>
+      <div className={`${styles.div_inputs}`}>
+        <div className={`${styles.div_inputs_w}`}>
           <span>*</span>
           <label for="fullName">Nome completo</label>
         </div>
-        <div className="sc-gsFSXq eVCLgy">
+        <div className={`${styles.div_inputs_p}`}>
           <input
             id="fullName"
             placeholder="Qual seu nome completo?"
@@ -14,12 +16,12 @@ function Etapa1() {
           />
         </div>
       </div>
-      <div className="sc-ibQAlb gDMmdu">
-        <div className="sc-jGKxIK hPtMng">
+      <div className={`${styles.div_inputs}`}>
+        <div className={`${styles.div_inputs_w}`}>
           <span>*</span>
           <label for="age">Idade</label>
         </div>
-        <div className="sc-gsFSXq eVCLgy">
+        <div className={`${styles.div_inputs_p}`}>
           <input
             id="age"
             type="number"
@@ -28,12 +30,12 @@ function Etapa1() {
           />
         </div>
       </div>
-      <div className="sc-ibQAlb gDMmdu">
-        <div className="sc-jGKxIK hPtMng">
+      <div className={`${styles.div_inputs}`}>
+        <div className={`${styles.div_inputs_w}`}>
           <span>*</span>
           <label for="email">Email</label>
         </div>
-        <div className="sc-gsFSXq eVCLgy">
+        <div className={`${styles.div_inputs_p}`}>
           <input
             id="email"
             type="email"
@@ -42,12 +44,12 @@ function Etapa1() {
           />
         </div>
       </div>
-      <div className="sc-ibQAlb gDMmdu">
-        <div className="sc-jGKxIK hPtMng">
+      <div className={`${styles.div_inputs}`}>
+        <div className={`${styles.div_inputs_w}`}>
           <span>*</span>
           <label for="github">Github</label>
         </div>
-        <div className="sc-gsFSXq eVCLgy">
+        <div className={`${styles.div_inputs_p}`}>
           <input
             id="github"
             type="text"
@@ -56,12 +58,12 @@ function Etapa1() {
           />
         </div>
       </div>
-      <div className="sc-ibQAlb gDMmdu">
-        <div className="sc-jGKxIK hPtMng">
+      <div className={`${styles.div_inputs}`}>
+        <div className={`${styles.div_inputs_w}`}>
           <span>*</span>
           <label for="linkedin">Linkedin</label>
         </div>
-        <div className="sc-gsFSXq eVCLgy">
+        <div className={`${styles.div_inputs_p}`}>
           <input
             id="linkedin"
             type="text"
@@ -70,8 +72,8 @@ function Etapa1() {
           />
         </div>
       </div>
-      <div className="sc-ibQAlb gDMmdu">
-        <div className="sc-jGKxIK hPtMng">
+      <div className={`${styles.div_inputs}`}>
+        <div className={`${styles.div_inputs_w}`}>
           <span>*</span>
           <label for="developmentSide">
             Onde você gosta mais de trabalhar?
