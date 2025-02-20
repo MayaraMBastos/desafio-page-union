@@ -6,6 +6,7 @@ import SectionBeneficios from "./sections/SectionBeneficios";
 import SectionEtapas from "./sections/SectionEtapas";
 import SectionInscrever from "./sections/SectionInscrever";
 import SectionDepoimentos from "./sections/SectionDepoimentos";
+import Formulario from "../form/Formulario";
 
 function Container() {
   return (
@@ -25,7 +26,7 @@ function Container() {
           <SectionDepoimentos />
         </div>
         <div className={`${styles.display_sections}`}>
-          <p>formulario</p>
+          <Formulario />
         </div>
 
         <div className={`${styles.display_sections}`}>

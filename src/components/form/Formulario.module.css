@@ -1,0 +1,45 @@
+.div_form {
+  max-width: 104.2rem;
+  margin-top: 15rem;
+  padding: 5.6rem;
+
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  -webkit-box-align: center;
+  align-items: center;
+  -webkit-box-pack: center;
+  justify-content: center;
+  width: 100%;
+  height: max-content;
+  scroll-margin-block: 150px;
+  border-radius: 10px;
+  background: linear-gradient(
+    225deg,
+    rgba(0, 72, 254, 0.2) 0%,
+    rgba(133, 29, 134, 0.2) 100%
+  );
+}
+
+.nav_form {
+  height: 11.1rem;
+  margin: 3.2rem 0px;
+}
+
+.nav_form ul {
+  width: 100%;
+  -webkit-box-pack: center;
+  justify-content: center;
+  gap: 13.5rem;
+  display: inline-flex;
+  height: 6.8rem;
+}
+
+.div_etapas {
+  width: 13.9rem;
+  height: 11.1rem;
+  gap: 1rem;
+  flex-direction: column;
+  -webkit-box-align: center;
+  align-items: center;
+}
