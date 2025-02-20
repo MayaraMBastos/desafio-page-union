@@ -8,7 +8,6 @@ function SectionInscrever() {
         <img
           src="https://media.graphassets.com/WayysMB8RQyrgcahBMQs"
           alt="Um octógono com três pontos, representando a união dos desenvolvedores"
-          class="sc-dtInlm hHKZZ"
         />
         <div class="px-[0.8rem] text-center">
           <h2>

@@ -1,0 +1,10 @@
+.div_section_scroll {
+  display: block;
+  width: 100%;
+  scroll-margin-block: 150px;
+}
+
+.div_card_dep {
+  width: 402.667px;
+  margin-right: 8px;
+}
