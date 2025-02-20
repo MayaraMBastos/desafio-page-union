@@ -46,6 +46,14 @@ h4 {
   color: rgb(226, 226, 226);
 }
 
+h2 {
+  font-size: 1.8rem;
+  font-weight: 700;
+  line-height: 2rem;
+  color: rgb(226, 226, 226);
+  max-width: 29rem;
+}
+
 p {
   font-size: 1.5rem;
   max-width: 102.7rem;

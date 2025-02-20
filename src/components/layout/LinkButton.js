@@ -3,7 +3,7 @@ import styles from "./LinkButton.module.css";
 function LinkButton({ text, href }) {
   return (
     <div
-      className="m-0 p-0 box-border"
+      className="m-0 p-0 box-border flex itens-center justify-center"
       style={{ WebkitFontSmoothing: "antialiased" }}
     >
       <button

@@ -4,6 +4,7 @@ import SectionSobre from "./sections/SectionSobre";
 import SectionPilares from "./sections/SectionPilares";
 import SectionBeneficios from "./sections/SectionBeneficios";
 import SectionEtapas from "./sections/SectionEtapas";
+import SectionInscrever from "./sections/SectionInscrever";
 
 function Container() {
   return (
@@ -14,6 +15,21 @@ function Container() {
         <SectionPilares />
         <SectionBeneficios />
         <SectionEtapas />
+      </div>
+      <div>
+        <div className={`${styles.display_sections}`}>
+          <SectionInscrever />
+        </div>
+        <div className={`${styles.display_sections}`}>
+          <p>depoimentos</p>
+        </div>
+        <div className={`${styles.display_sections}`}>
+          <p>formulario</p>
+        </div>
+
+        <div className={`${styles.display_sections}`}>
+          <p>duvidas</p>
+        </div>
       </div>
     </main>
   );
