@@ -1,0 +1,31 @@
+.div_duvidas {
+  margin: 5.6rem auto 0px;
+  padding: 0px;
+}
+
+.div_duvidas dl {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+}
+
+.div_btn_duvidas {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+}
+
+.div_btn_duvidas dt {
+  padding: 3.2rem 3.2rem 2.4rem;
+  display: flex;
+  -webkit-box-pack: justify;
+  justify-content: space-between;
+  -webkit-box-align: center;
+  align-items: center;
+  background: linear-gradient(
+    225deg,
+    rgb(0, 72, 254) 0%,
+    rgb(133, 29, 134) 100%
+  );
+  border-radius: 10px 10px 0px 0px;
+}

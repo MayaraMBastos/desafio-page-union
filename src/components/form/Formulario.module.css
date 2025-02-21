@@ -125,7 +125,7 @@
   border: 1px solid rgb(189, 189, 189);
   border-radius: 10px;
   transition: 0.1s;
-  min-height: 15rem;
+  min-height: 8rem;
   resize: none;
 }
 

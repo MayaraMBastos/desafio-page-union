@@ -1,17 +1,19 @@
 import SlideButton from "@/components/layout/SlideButton";
 import styles from "./SectionDepoimentos.module.css";
+import stylesBeneficios from "./SectionBeneficios.module.css";
+
 function SectionDepoimentos() {
   return (
     <section id="depoimentos" className={`${styles.div_section_scroll}`}>
-      <div className="sc-eqUAAy dzXXvd">
+      <div className={`${stylesBeneficios.div_linhas_title}`}>
         <div
           aria-label="Linha a esquerda do titulo"
-          className="sc-dcJsrY iNzVsI"
+          className={`left-0 ${stylesBeneficios.div_linha}`}
         ></div>
         <h2 className="sc-fqkvVR ldfcuN">Depoimentos</h2>
         <div
           aria-label="Linha a direita do titulo"
-          className="sc-iGgWBj jDNXdV"
+          className={`right-0 ${stylesBeneficios.div_linha}`}
         ></div>
       </div>
       <p className="sc-ihgnxF fTafTH">
