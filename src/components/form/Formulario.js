@@ -48,6 +48,7 @@ function Formulario() {
           <div data-testid="step-4-disabled" className={`${styles.div_etapas}`}>
             <li aria-current="false" className="sc-kbousE iHhOUB">
               Enviar
+              <br />
             </li>
             <span aria-label="Etapa 4" className="sc-sLsrZ iyLGpz">
               4
