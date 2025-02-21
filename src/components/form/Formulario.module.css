@@ -67,7 +67,7 @@
 
 .div_inputs_w span {
   align-self: baseline;
-  color: rgb(235, 87, 87);
+  color: rgb(211, 86, 86);
 }
 
 .div_inputs_p {
@@ -121,4 +121,50 @@
 .div_radios {
   display: flex;
   gap: 1rem;
+}
+
+.div_termos {
+  display: flex;
+  -webkit-box-align: center;
+  align-items: center;
+  color: rgb(226, 226, 226);
+  font-weight: 700;
+}
+
+.div_checkbox {
+  display: flex;
+  -webkit-box-align: center;
+  align-items: center;
+  color: rgb(226, 226, 226);
+  font-weight: 700;
+  gap: 0.6rem;
+}
+
+.div_checkbox_caixa {
+  width: 4rem;
+  height: 4rem;
+  position: relative;
+  display: flex;
+  -webkit-box-align: center;
+  align-items: center;
+  -webkit-box-pack: center;
+  justify-content: center;
+  appearance: none;
+  width: 3rem;
+  height: 3rem;
+  border-right: 3.5px solid rgb(0, 72, 254);
+  border-left: 3.5px solid rgb(133, 29, 134);
+  background-image: linear-gradient(
+      to right,
+      rgb(133, 29, 134),
+      rgb(0, 72, 254)
+    ),
+    linear-gradient(to right, rgb(133, 29, 134), rgb(0, 72, 254));
+  background-size: 100% 3.5px;
+  background-position: 0px 100%, 0px 0px;
+  background-repeat: no-repeat;
+  background-clip: padding-box;
+  border-radius: 5.33px;
+  cursor: pointer;
+  outline: none;
 }
