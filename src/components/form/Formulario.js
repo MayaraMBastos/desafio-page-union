@@ -1,9 +1,16 @@
+"use client";
+
+import LinkButton from "../layout/LinkButton";
 import Etapa1 from "./Etapa1";
 import Etapa2 from "./Etapa2";
 import Etapa3 from "./Etapa3";
 import styles from "./Formulario.module.css";
 
+import { useState } from "react";
+
 function Formulario() {
+  const [etapa, setEtapa] = useState(1); // Estado da etapa
+
   return (
     <section id="formulario" className={`${styles.div_form}`}>
       <h2>Junte-se ao time!</h2>
@@ -47,9 +54,26 @@ function Formulario() {
           </div>
         </ul>
       </nav>
-      <Etapa3 />
-      <p>Etapa 2</p>
-      <p>Etapa</p>
+      {etapa === 1 && <Etapa1 />}
+      {etapa === 2 && <Etapa2 />}
+      {etapa === 3 && <Etapa3 />}
+      <div className="flex gap-4 mt-4">
+        {etapa > 1 && (
+          <LinkButton
+            text="Voltar"
+            href="#etapa"
+            onClick={() => setEtapa(etapa - 1)}
+          />
+        )}
+
+        {etapa < 3 && (
+          <LinkButton
+            text="Próximo"
+            href="#etapa"
+            onClick={() => setEtapa(etapa + 1)}
+          />
+        )}
+      </div>
     </section>
   );
 }

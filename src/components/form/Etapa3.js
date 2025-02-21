@@ -110,14 +110,6 @@ function Etapa3() {
           <span>Os termos devem ser aceito</span>
         </div>
       </div>
-      <div class="sc-gmgFlS hnYZFS">
-        <button type="button" class="sc-aXZVg lnbitJ">
-          <span>Voltar</span>
-        </button>
-        <button type="button" disabled="" class="sc-aXZVg deNrec">
-          <span>Enviar</span>
-        </button>
-      </div>
     </div>
   );
 }

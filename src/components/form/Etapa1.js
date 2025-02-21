@@ -100,14 +100,6 @@ function Etapa1() {
           <label for="backend">Backend</label>
         </div>
       </div>
-      <div className="sc-gmgFlS hnYZFS">
-        <button type="button" className="sc-aXZVg lnbitJ">
-          <span>Voltar</span>
-        </button>
-        <button type="button" disabled="" className="sc-aXZVg deNrec">
-          <span>Próximo</span>
-        </button>
-      </div>
     </div>
   );
 }
