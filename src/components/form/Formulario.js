@@ -7,6 +7,7 @@ import Etapa3 from "./Etapa3";
 import styles from "./Formulario.module.css";
 
 import { useState } from "react";
+import RequestButton from "./RequestButton";
 
 function Formulario() {
   const [etapa, setEtapa] = useState(1); // Estado da etapa
@@ -72,6 +73,10 @@ function Formulario() {
             href="#etapa"
             onClick={() => setEtapa(etapa + 1)}
           />
+        )}
+
+        {etapa === 3 && (
+          <RequestButton onClick={() => alert("Enviando requisição...")} />
         )}
       </div>
     </section>

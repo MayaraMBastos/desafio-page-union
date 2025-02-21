@@ -1,4 +1,4 @@
-import styles from "./LinkButton.module.css";
+import styles from "../layout/LinkButton.module.css";
 
 function RequestButton({ onClick }) {
   return (
