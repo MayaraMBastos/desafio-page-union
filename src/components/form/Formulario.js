@@ -1,4 +1,6 @@
 import Etapa1 from "./Etapa1";
+import Etapa2 from "./Etapa2";
+import Etapa3 from "./Etapa3";
 import styles from "./Formulario.module.css";
 
 function Formulario() {
@@ -45,7 +47,7 @@ function Formulario() {
           </div>
         </ul>
       </nav>
-      <Etapa1 />
+      <Etapa3 />
       <p>Etapa 2</p>
       <p>Etapa</p>
     </section>

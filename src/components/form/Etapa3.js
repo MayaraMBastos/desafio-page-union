@@ -1,8 +1,9 @@
+import styles from "./Formulario.module.css";
 function Etapa3() {
   return (
-    <div class="sc-jaXxmE jIWlBm" style="opacity: 1; transform: none;">
-      <div class="sc-ibQAlb gDMmdu">
-        <div class="sc-jGKxIK hPtMng">
+    <div className={`${styles.div_etapa_1}`}>
+      <div className={`${styles.div_inputs}`}>
+        <div className={`${styles.div_inputs_w}`}>
           <span>*</span>
           <label for="youMotivation">
             Por que você gosta de programar? Qual sua maior motivação?

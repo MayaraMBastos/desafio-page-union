@@ -70,12 +70,6 @@
   color: rgb(235, 87, 87);
 }
 
-.div_inputs_w label {
-  font-size: 1.8rem;
-  max-width: 64.4rem;
-  color: rgb(226, 226, 226);
-}
-
 .div_inputs_p {
   display: flex;
   flex-direction: column;
@@ -84,9 +78,9 @@
 
 .div_inputs_p input {
   width: 100%;
-  height: 5rem;
+  height: 2.5rem;
   padding: 1.2rem 1.2rem 1.2rem 1.6rem;
-  font-size: 1.6rem;
+  font-size: 1rem;
   line-height: 157.5%;
   color: rgb(226, 226, 226);
   background: transparent;
@@ -94,4 +88,37 @@
   border-radius: 10px;
   transition: 0.1s;
   font-family: inherit;
+}
+
+.div_inputs_p textarea {
+  width: 100%;
+  padding: 1.2rem 1.6rem;
+  font-size: 1rem;
+  line-height: 157.5%;
+  color: rgb(226, 226, 226);
+  background: transparent;
+  border: 1px solid rgb(189, 189, 189);
+  border-radius: 10px;
+  transition: 0.1s;
+  min-height: 15rem;
+  resize: none;
+}
+
+.inputs_radios {
+  font-size: 1rem;
+  font-family: inherit;
+  position: relative;
+  appearance: none;
+  width: 1.8rem;
+  height: 1.8rem;
+  border: 1px solid rgb(226, 226, 226);
+  border-radius: 50%;
+  background: transparent;
+  outline: none;
+  cursor: pointer;
+}
+
+.div_radios {
+  display: flex;
+  gap: 1rem;
 }
