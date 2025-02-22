@@ -25,3 +25,7 @@
   text-align: initial;
   animation: autoease 0s 1 normal none running none;
 }
+
+.btn_duvida p {
+  white-space: pre-line;
+}
