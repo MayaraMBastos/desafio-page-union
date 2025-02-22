@@ -1,0 +1,27 @@
+.btn_duvida {
+  min-height: initial;
+  position: relative;
+  display: flex;
+  flex: 1 1 0%;
+  justify-content: space-between;
+  -webkit-box-align: center;
+  align-items: center;
+  background: none;
+  height: min-content;
+  animation: 0.5sease-in-out 0s 1 normal forwards running fadeIn;
+
+  cursor: pointer;
+  border: none;
+
+  font-size: 1.6rem;
+  font-family: inherit;
+}
+
+.btn_duvida h3 {
+  font-size: 1.8rem;
+  line-height: 3.5rem;
+  max-width: 73rem;
+  font-weight: 700;
+  text-align: initial;
+  animation: autoease 0s 1 normal none running none;
+}

@@ -1,19 +1,20 @@
 import stylesContainer from "../Container.module.css";
+import DuvidaButton from "../DuvidaButton";
 import stylesBeneficios from "./SectionBeneficios.module.css";
 import styles from "./SectionDuvidas.module.css";
 
 function SectionDuvidas() {
   return (
-    <section classNameName={`${stylesContainer.section}`}>
-      <div classNameName={`${stylesBeneficios.div_linhas_title}`}>
+    <section className={`${stylesContainer.section}`}>
+      <div className={`${stylesBeneficios.div_linhas_title}`}>
         <div
           aria-label="Linha a esquerda do titulo"
-          classNameName={`left-0 ${stylesBeneficios.div_linha}`}
+          className={`left-0 ${stylesBeneficios.div_linha}`}
         ></div>
-        <h2 classNameName="sc-fqkvVR ldfcuN">Duvidas</h2>
+        <h2 className="sc-fqkvVR ldfcuN">Duvidas</h2>
         <div
           aria-label="Linha a direita do titulo"
-          classNameName={`right-0 ${stylesBeneficios.div_linha}`}
+          className={`right-0 ${stylesBeneficios.div_linha}`}
         ></div>
       </div>
 
@@ -21,19 +22,10 @@ function SectionDuvidas() {
         <dl>
           <div className={`${styles.div_btn_duvidas}`}>
             <dt>
-              <button
+              <DuvidaButton
+                text="O que é o Union?"
                 id="accordion-o-que-e-o-union"
-                type="button"
-                aria-controls="o-que-e-o-union-panel"
-                aria-expanded="false"
-                className="sc-esYiGF clEaxt"
-              >
-                <h3>O que é o Union?</h3>
-                <img
-                  src="https://media.graphassets.com/DKDAgqcGR3Cqbmak0FMU"
-                  alt="Abrir"
-                />
-              </button>
+              />
             </dt>
             <dd
               id="o-que-e-o-union-panel"
