@@ -15,6 +15,10 @@ import styleBtn from "../layout/LinkButton.module.css";
 const formSchema = z.object({
   fullName: z.string().min(3, "O nome deve ter pelo menos 3 caracteres"),
   email: z.string().email("E-mail inválido"),
+  age: z.number().min(18, "A idade deve ser maior/ igual a 18 anos"),
+  terms: z.boolean().refine((val) => val === true, {
+    message: "Você precisa aceitar os termos de uso",
+  }), // Valida se o checkbox 'terms' foi marcado
 });
 
 function Formulario() {
@@ -29,7 +33,6 @@ function Formulario() {
     handleSubmit,
     formState: { errors },
   } = methods; // Pegue os erros do formulário
-  console.log("Erros de validação:", errors); // Verifique se há erros de validação
 
   const onSubmit = (data) => {
     if (Object.keys(errors).length === 0) {

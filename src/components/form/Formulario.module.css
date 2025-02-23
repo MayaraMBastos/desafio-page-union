@@ -158,13 +158,17 @@
   font-weight: 700;
 }
 
-.div_checkbox {
+.div_checkbox input {
   display: flex;
   -webkit-box-align: center;
   align-items: center;
   color: rgb(226, 226, 226);
   font-weight: 700;
   gap: 0.6rem;
+}
+
+.div_checkbox input:checked {
+  background-color: rgb(226, 226, 226);
 }
 
 .div_checkbox_caixa {
@@ -194,4 +198,10 @@
   border-radius: 5.33px;
   cursor: pointer;
   outline: none;
+}
+
+.error {
+  color: rgb(247, 78, 78);
+  font-size: 12px;
+  margin-top: 4px;
 }
