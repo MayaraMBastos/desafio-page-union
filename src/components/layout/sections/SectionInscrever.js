@@ -9,7 +9,7 @@ function SectionInscrever() {
           src="https://media.graphassets.com/WayysMB8RQyrgcahBMQs"
           alt="Um octógono com três pontos, representando a união dos desenvolvedores"
         />
-        <div className="px-[0.8rem] text-center">
+        <div className="px-[0.8rem] text-center contents">
           <h2>
             Vivencia na prática, ambiente imersivo, desafios e muito mais!
           </h2>

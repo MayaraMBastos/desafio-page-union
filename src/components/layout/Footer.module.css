@@ -1,0 +1,44 @@
+.div_footer {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr) 8.6rem;
+  gap: 7rem;
+  padding: 4rem 7rem;
+  -webkit-box-align: center;
+  align-items: center;
+  background-color: rgb(18, 17, 25);
+  margin: 3rem;
+}
+
+.div_img {
+  align-items: flex-start;
+  display: flex;
+  flex-direction: column;
+  -webkit-box-pack: center;
+  justify-content: center;
+  -webkit-box-align: center;
+}
+
+.div_img img {
+  max-width: 100%;
+}
+
+.div_text {
+  margin-top: 1.2rem;
+}
+
+.div_footer p,
+.div_footer a {
+  font-size: 1rem;
+  line-height: 140%;
+  color: rgb(226, 226, 226);
+}
+
+.div_footer nav {
+  display: flex;
+  gap: 5.2rem;
+  margin: 0px;
+}
+
+.div_footer h2 {
+  font-size: 1.4rem;
+}
