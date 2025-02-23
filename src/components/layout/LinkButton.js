@@ -4,6 +4,7 @@ function LinkButton({ text, href, onClick }) {
   return (
     <button
       href={href}
+      type="button"
       className={`flex items-center justify-center no-underline cursor-pointer ${styles.button}`}
       onClick={onClick}
     >
