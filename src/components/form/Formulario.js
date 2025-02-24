@@ -22,6 +22,19 @@ const formSchema = z.object({
     .refine((val) => val >= 18, {
       message: "A idade deve ser maior ou igual a 18 anos",
     }), // Verifica se a idade é >= 18
+  github: z.string().nonempty("Campo Obrigatório"), // Campo obrigatorio
+  linkedin: z.string().nonempty("Campo Obrigatório"), // Campo obrigatorio
+  aboutBestProject: z.string().nonempty("Campo Obrigatório"), // Campo obrigatorio
+  youMotivation: z.string().nonempty("Campo Obrigatório"), // Campo obrigatorio
+  timeManagement: z.string().nonempty("Campo Obrigatório"), // Campo obrigatorio
+  aboutFeedback: z.string().nonempty("Campo Obrigatório"), // Campo obrigatorio
+  howDidYouKnow: z.string().nonempty("Campo Obrigatório"), // Campo obrigatorio
+  becauseParticipate: z.string().nonempty("Campo Obrigatório"), // Campo obrigatorio
+  reasonForSelected: z.string().nonempty("Campo Obrigatório"), // Campo obrigatorio
+
+  isTermsAccepted: z.boolean().refine((val) => val === true, {
+    message: "Você precisa aceitar os termos de uso",
+  }), // Valida se o checkbox 'terms' foi marcado
 });
 
 function Formulario() {
@@ -40,6 +53,7 @@ function Formulario() {
 
   const onSubmit = (data) => {
     if (Object.keys(errors).length === 0) {
+      localStorage.setItem("formData", JSON.stringify(data)); // Dados salvos no localStorage
       console.log("Dados enviados:", data);
       alert("Formulário enviado com sucesso!");
     } else {
