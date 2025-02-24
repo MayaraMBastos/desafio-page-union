@@ -15,7 +15,13 @@ import styleBtn from "../layout/LinkButton.module.css";
 const formSchema = z.object({
   fullName: z.string().min(3, "O nome deve ter pelo menos 3 caracteres"),
   email: z.string().email("E-mail inválido"),
-  age: z.number().min(18, "Idade minima 18 anos"),
+  age: z
+    .string() // Aceita a entrada como string
+    .transform((val) => parseInt(val, 10)) // Transforma a entrada em número
+    .refine((val) => !isNaN(val), { message: "Idade inválida" }) // Verifica se o valor é um número válido
+    .refine((val) => val >= 18, {
+      message: "A idade deve ser maior ou igual a 18 anos",
+    }), // Verifica se a idade é >= 18
 });
 
 function Formulario() {
