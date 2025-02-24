@@ -16,7 +16,7 @@ function SectionPilares() {
       <div className="mt-[2rem] mb-[2rem]">
         <div className={`${styles.div_pilares}`}>
           <div className={`${styles.div_metodologias}`}>
-            <header>
+            <header className={`${styles.div_head}`}>
               <h3>Ativa</h3>
             </header>
             <div className={`${styles.div_metodologias_text}`}>
@@ -30,7 +30,7 @@ function SectionPilares() {
             </div>
           </div>
           <div className={`${styles.div_metodologias}`}>
-            <header>
+            <header className={`${styles.div_head}`}>
               <h3>Andragogia</h3>
             </header>
             <div className={`${styles.div_metodologias_text}`}>
@@ -44,7 +44,7 @@ function SectionPilares() {
             </div>
           </div>
           <div className={`${styles.div_metodologias}`}>
-            <header>
+            <header className={`${styles.div_head}`}>
               <h3>Ágil</h3>
             </header>
             <div className={`${styles.div_metodologias_text}`}>

@@ -26,9 +26,9 @@
   align-items: center;
   -webkit-box-pack: justify;
   justify-content: space-between;
-  width: 20.4rem;
+  width: 13rem;
   height: max-content;
-  min-height: 19.6rem;
+  min-height: 8rem;
   background-color: rgb(18, 17, 25);
   padding: 2.4rem 1.6rem 2.4rem 3.2rem;
   border-radius: 10px;
@@ -38,7 +38,7 @@
   left: -29px;
   position: absolute;
   top: 15px;
-  font-size: 13rem;
+  font-size: 8rem;
   font-weight: 700;
   letter-spacing: 3.2rem;
   background: linear-gradient(
@@ -54,20 +54,22 @@
   display: inline-flex;
   flex-direction: column;
   gap: 0.8rem;
-  width: 14.4rem;
+  width: 8rem;
   text-align: center;
   margin: 0px auto;
 }
 
 .div_text_card h3 {
-  font-size: 1.8rem;
+  font-size: 1rem;
   line-height: 2.2rem;
   font-weight: 700;
   color: rgb(226, 226, 226);
+  text-align: center;
 }
 
 .div_text_card p {
-  font-size: 1.6rem;
+  font-size: 0.8rem;
   line-height: 150%;
   color: rgb(215, 215, 215);
+  text-align: center;
 }

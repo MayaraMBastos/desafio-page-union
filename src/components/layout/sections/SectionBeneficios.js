@@ -17,12 +17,12 @@ function SectionBeneficios() {
           className={`right-0 ${styles.div_linha}`}
         ></div>
       </div>
-      <p>
+      <p className="text-center">
         Conheça os benefícios incríveis que o Union proporciona para seus
         membros!
       </p>
       <div className="mt-[5rem] max-w-[114rem] pl-[1.1rem]">
-        <div className="flex flex-col gap-[10rem]">
+        <div className="flex flex-col gap-[5rem]">
           <div className={`${styles.div_cards}`}>
             <div>
               <img

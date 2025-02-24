@@ -16,8 +16,10 @@ function SectionEtapas() {
           className={`right-0 ${stylesBeneficios.div_linha}`}
         ></div>
       </div>
-      <p>Conheça as etapas do nosso processo seletivo</p>
-      <div className="mt-[8rem] mx-auto max-w-[106.7rem] px-[1.6rem] ">
+      <p className="text-center">
+        Conheça as etapas do nosso processo seletivo
+      </p>
+      <div className="mt-[4rem] mb-[4rem] mx-auto max-w-[106.7rem] px-[1.6rem] ">
         <div className={`${styles.div_ol}`}>
           <ol>
             <li>
@@ -31,7 +33,7 @@ function SectionEtapas() {
                 </div>
               </div>
             </li>
-            <li>
+            <li className="left-[15%]">
               <div className={`${styles.div_li}`}>
                 <span>2</span>
                 <div className={`${styles.div_text_card}`}>
@@ -53,7 +55,7 @@ function SectionEtapas() {
                 </div>
               </div>
             </li>
-            <li>
+            <li className="left-[15%]">
               <div className={`${styles.div_li}`}>
                 <span>4</span>
                 <div className={`${styles.div_text_card}`}>
