@@ -4,7 +4,7 @@ import stylesBeneficios from "./SectionBeneficios.module.css";
 
 function SectionEtapas() {
   return (
-    <section className={`${stylesContainer.section}`}>
+    <section id="etapas" className={`${stylesContainer.section}`}>
       <div className={`${stylesBeneficios.div_linhas_title}`}>
         <div
           aria-label="Linha a esquerda do titulo"

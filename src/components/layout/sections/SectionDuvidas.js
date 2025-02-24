@@ -12,7 +12,7 @@ function SectionDuvidas() {
     setOpenDuvida(openDuvida === id ? null : id); // Alterna entre abrir e fechar
   };
   return (
-    <section className={`${stylesContainer.section}`}>
+    <section id="duvidas" className={`${stylesContainer.section}`}>
       <div className={`${stylesBeneficios.div_linhas_title}`}>
         <div
           aria-label="Linha a esquerda do titulo"

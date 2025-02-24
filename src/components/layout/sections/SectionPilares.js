@@ -3,7 +3,7 @@ import stylesContainer from "../Container.module.css";
 
 function SectionPilares() {
   return (
-    <section className={`${stylesContainer.section}`}>
+    <section id="pilares" className={`${stylesContainer.section}`}>
       <header className={`${stylesContainer.section_header}`}>
         <h2>Pilares</h2>
       </header>

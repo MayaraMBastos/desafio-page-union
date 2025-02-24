@@ -3,7 +3,7 @@ import stylesContainer from "../Container.module.css";
 
 function SectionSobre() {
   return (
-    <section className={`${stylesContainer.section}`}>
+    <section id="sobre" className={`${stylesContainer.section}`}>
       <header className={`${stylesContainer.section_header}`}>
         <h2>Quem somos?</h2>
       </header>

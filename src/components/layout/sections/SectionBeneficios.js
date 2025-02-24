@@ -4,6 +4,7 @@ import stylesContainer from "../Container.module.css";
 function SectionBeneficios() {
   return (
     <section
+      id="beneficios"
       className={`${stylesContainer.section} ${stylesContainer.section_text}`}
     >
       <div className={`${styles.div_linhas_title}`}>
