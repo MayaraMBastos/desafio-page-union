@@ -15,6 +15,7 @@ import styleBtn from "../layout/LinkButton.module.css";
 const formSchema = z.object({
   fullName: z.string().min(3, "O nome deve ter pelo menos 3 caracteres"),
   email: z.string().email("E-mail inválido"),
+  age: z.number().min(18, "Idade minima 18 anos"),
 });
 
 function Formulario() {
