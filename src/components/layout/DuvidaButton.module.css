@@ -25,7 +25,13 @@
   text-align: initial;
   animation: autoease 0s 1 normal none running none;
 }
+.btn_dd {
+  display: block;
+  padding: 2rem 1.6rem;
+  background-color: rgb(251, 251, 251);
+  border-radius: 0px 0px 10px 10px;
+}
 
-.btn_duvida p {
-  white-space: pre-line;
+.btn_dd p {
+  color: #252525;
 }

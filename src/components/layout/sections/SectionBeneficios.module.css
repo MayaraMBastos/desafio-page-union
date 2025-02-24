@@ -4,6 +4,8 @@
   display: flex;
   -webkit-box-pack: center;
   justify-content: center;
+
+  margin: 2rem 0rem 2rem 0;
 }
 
 .div_linhas_title h2 {
