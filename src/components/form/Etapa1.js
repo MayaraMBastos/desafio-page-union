@@ -36,7 +36,7 @@ function Etapa1() {
         <div className={`${styles.div_inputs_p}`}>
           <input
             id="age"
-            type="text"
+            type="number"
             placeholder="Qual sua idade?"
             {...register("age", { required: "Idade é obrigatória" })}
           />
